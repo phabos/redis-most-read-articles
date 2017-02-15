@@ -1,0 +1,10 @@
+{
+    "require": {
+        "silex/silex": "~2.0",
+        "predis/predis": "^1.1",
+        "twig/twig": "^2.1"
+    },
+    "autoload": {
+  		  "psr-0": {"Redis": "src/"}
+  	}
+}
